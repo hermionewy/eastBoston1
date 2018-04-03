@@ -81,6 +81,7 @@
 	
 	    var scene = new ScrollMagic.Scene({
 	        triggerElement: el,
+	        offset: 0,
 	        triggerHook: 'onCenter'
 	    });
 	

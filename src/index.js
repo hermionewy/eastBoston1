@@ -34,6 +34,7 @@ var scenes = triggerEls.map(function(el) {
 
     var scene = new ScrollMagic.Scene({
         triggerElement: el,
+        offset:0,
         triggerHook: 'onCenter',
     })
 
@@ -41,7 +42,7 @@ var scenes = triggerEls.map(function(el) {
         .on('enter', function(event) {
             d3.selectAll('.trigger').style('color', '#a4a4a4')
             d3.select(el).style('color', '#000');
-            graphicUpdate(step)
+            graphicUpdate(step);
         })
         .on('leave', function(event) {
             var nextStep = Math.max(0, step - 1);
