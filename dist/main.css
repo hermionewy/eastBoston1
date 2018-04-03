@@ -1,3 +1,16 @@
+@font-face {
+    font-family: "GrifoL-Bold";
+    src: url(https://web.northeastern.edu/visualizingeastie/fonts/Grifo-L-Bold.otf);
+}
+
+/*body {font-family: "GrifoL-Bold","Georgia",serif}*/
+
+@font-face {
+    font-family: "BentonSansCond-Bold";
+    src: url(https://web.northeastern.edu/visualizingeastie/fonts/BentonSansCond-Bold.otf);
+}
+body {font-family: "BentonSansCond-Regular","Helvetica",sans-serif;}
+
 body{
     overflow-x: hidden;
 }
