@@ -1,6 +1,5 @@
 body{
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 h1.EastBoston_head{
     margin-bottom: 20px;
@@ -24,7 +23,7 @@ h1.EastBoston_head{
 .hed-img{
     background: url('./image/East-Boston.JPG') center;
     background-size: cover;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 .graphic{
     min-height: 500px;
@@ -53,7 +52,7 @@ h6.EastBoston_footer{
 
 }
 .trigger{
-    margin: 300px 0px 300px 0px;
+    margin: 200px 0px 500px 0px;
     background-color: rgba(255, 255, 255, 0.6);
     padding: 15px;
 }

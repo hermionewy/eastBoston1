@@ -137,34 +137,36 @@ function graphicUpdate(step) {
         }).strength(2.5);
 
         forceLayout(data, forceX, forceY, colorByRace,Opacity3);
+
+        d3.select('#btn1').on('click', function () {
+            var forceY = d3.forceY().y(function (d) {
+                return  barByRaceY4(d)
+            }).strength(2);
+            forceLayout(data, forceX, forceY, colorByRace,Opacity3);
+        })
+        d3.select('#btn2').on('click', function () {
+            var forceY = d3.forceY().y(function (d) {
+                return  barByRaceY5(d)
+            }).strength(2);
+            forceLayout(data, forceX, forceY, colorByRace,Opacity3);
+        })
+        d3.select('#btn3').on('click', function () {
+            var forceY = d3.forceY().y(function (d) {
+                return  barByRaceY6(d)
+            }).strength(2);
+            forceLayout(data, forceX, forceY, colorByRace,Opacity3);
+        })
+        d3.select('#btn4').on('click', function () {
+            var forceY = d3.forceY().y(function (d) {
+                return  barByRaceY7(d)
+            }).strength(2);
+            forceLayout(data, forceX, forceY, colorByRace,Opacity3);
+        })
     }
 }
 
 
-d3.select('#btn1').on('click', function () {
-    var forceY = d3.forceY().y(function (d) {
-        return  barByRaceY4(d)
-    }).strength(2);
-    forceLayout(data, forceX, forceY, colorByRace,Opacity3);
-})
-d3.select('#btn2').on('click', function () {
-    var forceY = d3.forceY().y(function (d) {
-        return  barByRaceY5(d)
-    }).strength(2);
-    forceLayout(data, forceX, forceY, colorByRace,Opacity3);
-})
-d3.select('#btn3').on('click', function () {
-    var forceY = d3.forceY().y(function (d) {
-        return  barByRaceY6(d)
-    }).strength(2);
-    forceLayout(data, forceX, forceY, colorByRace,Opacity3);
-})
-d3.select('#btn4').on('click', function () {
-    var forceY = d3.forceY().y(function (d) {
-        return  barByRaceY7(d)
-    }).strength(2);
-    forceLayout(data, forceX, forceY, colorByRace,Opacity3);
-})
+
 
 function barByRaceY(d) {
     return 7*height/8-Math.floor(d.count/4)*8
