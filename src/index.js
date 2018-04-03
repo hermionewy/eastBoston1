@@ -163,6 +163,9 @@ function graphicUpdate(step) {
             }).strength(2);
             forceLayout(data, forceX, forceY, colorByRace,Opacity3);
         })
+        d3.select('#btn5').on('click', function () {
+            forceLayout(data, forceX, forceY, colorByRace,Opacity3);
+        })
     }
 }
 
@@ -336,7 +339,7 @@ function colorByRace(d) {
     } else if(d=='asian'){
         return '#E6B89C'
     } else {
-        return '#EAD2AC'
+        return '#ccc'
     }
 }
 function drawCircles(data) {
