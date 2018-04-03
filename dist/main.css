@@ -5,6 +5,7 @@ h1.EastBoston_head{
     margin-bottom: 20px;
     color: white;
     text-shadow: 1px 1px 1px black;
+    margin-top: 50px;
 }
 .credit{
     margin-bottom: 50px;
@@ -21,9 +22,10 @@ h1.EastBoston_head{
     line-height: 1.5rem;
 }
 .hed-img{
-    background: url('./image/East-Boston.JPG') center;
+    background: url('./image/NEW-BG.png') center;
     background-size: cover;
     margin-bottom: 100px;
+    min-height: 500px;
 }
 .graphic{
     min-height: 500px;
@@ -96,7 +98,7 @@ h6.EastBoston_footer{
 }
 .legend{
     position: absolute;
-    top: 20px;
+    top: 10px;
     left: 0px;
     font-size: 0.8rem;
 
