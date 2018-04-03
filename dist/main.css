@@ -1,0 +1,94 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+h1.EastBoston_head{
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.credit{
+    margin-bottom: 50px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.subhed{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.eb-content{
+    font-family: "BentonSansCond-Regular","Helvetica",sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.hed-img{
+    background: url('./image/East-Boston.JPG') center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.graphic{
+    min-height: 500px;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+.placeholder-img{
+    width: 100%;
+}
+h6.EastBoston_footer{
+    font-size: 0.8rem;
+}
+#circle-graphic{
+    width: 100%;
+    min-height: 100vh;
+}
+.main-container .row{
+    position: relative;
+}
+
+.graphic-wrapper{
+    position: relative;
+    top: 0px;
+}
+.circle-graphic{
+
+}
+.trigger{
+    margin: 300px 0px 300px 0px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 15px;
+}
+
+.fixed{
+    position: fixed;
+    top: 0px;
+}
+.relativeTop{
+    position: absolute;
+    top: 0px
+}
+.relativeBottom{
+    position: absolute;
+    bottom: 0px
+}
+.hispanic{
+    color: #4281A4
+}
+.white{
+    color: #FE938C
+}
+.black{
+    color: #9CAFB7
+}
+.asian{
+    color:#E6B89C
+}
+.other{
+    color: #EAD2AC
+}
+.container-fluid{
+    background-color: white;
+}
+#spacer-1{
+    width: 100%;
+    min-height: 10px;
+}
