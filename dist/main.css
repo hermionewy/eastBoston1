@@ -26,6 +26,7 @@ h1.EastBoston_head{
     text-shadow: 1px 1px 1px black;
 }
 .subhed{
+    font-size: 1.5em;
     color: white;
     text-shadow: 1px 1px 1px black;
 }
@@ -114,5 +115,23 @@ h6.EastBoston_footer{
     top: 10px;
     left: 0px;
     font-size: 0.8rem;
+
+}
+.container-fluid.hed-video{
+    width: 100vw;
+    height: 100vh;
+    padding-right: 0px;
+    padding-left: 0px;
+    position: relative;
+    margin-bottom: 100px;
+}
+#openVideo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 90%;
+    width: auto;
+    height: auto;
 
 }
